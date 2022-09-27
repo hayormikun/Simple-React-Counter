@@ -4,13 +4,21 @@ const Counter = () => {
   const [counter, setCounter] = useState(0);
   return (
     <>
-      <p>Current count is {counter}</p>
-      <button
+      <p>Current count is <strong>{counter}</strong></p>
+      <button className="btn"
         onClick={() => {
           setCounter(counter + 1);
         }}
       >
         Click to increase counter by 1
+      </button>
+
+      <button className="btn"
+        onClick={() => {
+          setCounter(0);
+        }}
+      >
+        Reset counter to 0
       </button>
     </>
   );

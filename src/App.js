@@ -4,7 +4,7 @@ function App() {
   return (
     
     <div className="container">
-      <h1>
+      <h1 className="header">
         Simple React Counter App
       </h1>
 
