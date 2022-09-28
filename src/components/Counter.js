@@ -18,7 +18,7 @@ const Counter = () => {
           setCounter(0);
         }}
       >
-        Reset counter to 0
+        Reset counter
       </button>
     </>
   );
